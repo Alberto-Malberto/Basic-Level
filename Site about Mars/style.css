@@ -1,0 +1,28 @@
+
+@font-face{
+    src:url(font/Gputeks-Regular.woff)format ("woff"), url("font/Gputeks-Regular.woff2") format("woff2");
+    font-family: "Gputeks";
+}
+
+*{
+    font-family: "Gputeks";
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
