@@ -26,3 +26,22 @@ h2{
 p{
     font-size: 1rem;
 }
+
+.nav-section {
+    height: calc(100vh - 162px);
+    width: 138px;
+    border: solid;
+    position: fixed;
+    display: flex;
+    right: 0;
+    top: 50%;
+    transform:translate(0,-50%);
+    background-color: #3E4761;
+    padding: 50px 53px 0px 33px;
+}
+
+.nav-text{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+}
